@@ -1,0 +1,28 @@
+# Ignores wordpress specific files and directories
+/wp-content/themes/twenty*
+/wp-content/upgrade
+/wp-content/uploads
+/wp-config.php
+/sitemap.*
+*.sql
+
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
+.sass-cache
+.DS_store
+
+#Deps and generated directories
+node_modules/
+bower_components/
+vendor/
+dist/
+.sass-cache/
+.tmp/
+
+# IDE specific directories and files
+.idea/
+/*.iml
