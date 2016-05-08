@@ -1,24 +1,26 @@
 {
-  "name": "gulp-wordpress",
-  "version": "1.0.0",
-  "description": "Gulp and WordPress generator to make working with WordPress suck a little less",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jessepinuelas/gulp-wordpress.git"
-  },
-  "keywords": [
-    "Gulp",
-    "WordPress",
-    "Generator"
-  ],
-  "author": "Jesse Piñuelas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jessepinuelas/gulp-wordpress/issues"
-  },
-  "homepage": "https://github.com/jessepinuelas/gulp-wordpress#readme"
+    "name": "generator-gulp-wordpress",
+    "version": "1.0.0",
+    "description": "Gulp and WordPress generator to make working with WordPress suck a little less",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jessepinuelas/generator-gulp-wordpress.git"
+    },
+    "keywords": [
+        "yeoman-generator"
+    ],
+    "author": "Jesse Piñuelas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jessepinuelas/generator-gulp-wordpress/issues"
+    },
+    "homepage": "https://github.com/jessepinuelas/generator-gulp-wordpress#readme",
+    "dependencies": {
+        "wp-cli": "0.0.5",
+        "yeoman-generator": "^0.23.3"
+    }
 }

@@ -1,11 +1,12 @@
-### Installing up WP-CLI
-1. `curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar`
-2. `chmod +x wp-cli.phar`
-3. `sudo mv wp-cli.phar /usr/local/bin/wp`
+### Install
+1. `npm install`
+2. `npm link`
+
+### Run
+`cd into project`
+
+### Run generator
+`yo gulp-wordpress`
+
 
 ###### Additional [WP-CLI information](http://wp-cli.org/)
-
-### Installing WordPress From Commandline
-1. `cd into project`
-2. `wp core download`
-
