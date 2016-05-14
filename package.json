@@ -1,6 +1,6 @@
 {
     "name": "generator-gulp-wordpress",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Gulp and WordPress generator to make working with WordPress suck a little less",
     "main": "index.js",
     "scripts": {
@@ -20,7 +20,11 @@
     },
     "homepage": "https://github.com/jessepinuelas/generator-gulp-wordpress#readme",
     "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-bump": "^2.1.0",
+        "gulp-load-plugins": "^1.2.2",
         "wp-cli": "0.0.5",
+        "yargs": "^4.7.0",
         "yeoman-generator": "^0.23.3"
     }
 }
