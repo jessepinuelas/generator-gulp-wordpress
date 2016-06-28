@@ -1,10 +1,18 @@
 ## Gulp and wordpress generator.
-###### Makes working with wordpress suck a little less.
+###### Makes working with WordPress suck a little less.
 
 #### Install tools
+##### WP-CLI
+`curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar`
+
+`chmod +x wp-cli.phar`
+
+`sudo mv wp-cli.phar /usr/local/bin/wp`
+
+###### Yeoman and Gulp
 `npm install -g yo gulp`
 
-#### Install generator
+#### Generator
 `npm i generator-gulp-wordpress -g`
 
 #### Run generator
