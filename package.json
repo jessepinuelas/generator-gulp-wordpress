@@ -1,6 +1,6 @@
 {
     "name": "generator-gulp-wordpress",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Gulp and WordPress generator to make working with WordPress suck a little less",
     "main": "index.js",
     "scripts": {
