@@ -10,7 +10,7 @@
 `sudo mv wp-cli.phar /usr/local/bin/wp`
 
 #### Yeoman and Gulp
-`npm install -g yo gulp`
+`npm install -g yo gulp-cli`
 
 #### Generator
 `npm i generator-gulp-wordpress -g`
